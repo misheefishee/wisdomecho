@@ -33,15 +33,12 @@
       margin-bottom: 40px;
     }
 
-    .logo {
-      margin: 30px auto;
-    }
-
     .logo img {
       max-width: 220px;
       width: 100%;
       height: auto;
-      border-radius: 12px;
+      border-radius: 14px;
+      margin: 20px 0 30px;
     }
 
     .button {
@@ -52,7 +49,7 @@
       border-radius: 10px;
       text-decoration: none;
       font-weight: 600;
-      margin-top: 30px;
+      transition: opacity 0.2s ease;
     }
 
     .button:hover {
@@ -69,6 +66,34 @@
       border-radius: 14px;
       margin-top: 20px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    }
+
+    /* SOCIAL ICONS */
+    .socials {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+    }
+
+    .socials a {
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      background: white;
+      color: #111;
+      text-decoration: none;
+      font-size: 18px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+      transition: all 0.2s ease;
+    }
+
+    .socials a:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.12);
     }
 
     footer {
@@ -89,10 +114,37 @@
     <!-- SLOGAN -->
     <p class="slogan">Where community wisdom shapes what’s next.</p>
 
-    <!-- LOGO IMAGE SPOT -->
+    <!-- LOGO -->
     <div class="logo">
-      <!-- Replace "Wisdom Echo Logo.jpg" with your actual filename -->
-      <img src="202604-Wisdom Echo Logo-Vector-Best Quality.svg" alt="Wisdom Echo Logo">
+      <img src="Wisdom Echo Logo.jpg" alt="Wisdom Echo Logo">
+    </div>
+
+    <!-- CTA -->
+    <a class="button" href="#">Join the Community</a>
+
+    <!-- ABOUT -->
+    <div class="section">
+      <h2>About</h2>
+      <div class="card">
+        Wisdom Echo is a space where lived experience and collective insight come together to shape better ideas, tools, and futures.
+      </div>
+    </div>
+
+    <!-- SOCIAL LINKS -->
+    <div class="socials">
+
+      <a href="https://instagram.com/yourhandle" target="_blank" title="Instagram">
+        📸
+      </a>
+
+      <a href="https://x.com/yourhandle" target="_blank" title="X">
+        𝕏
+      </a>
+
+      <a href="https://linkedin.com/in/yourhandle" target="_blank" title="LinkedIn">
+        💼
+      </a>
+
     </div>
 
     <footer>
